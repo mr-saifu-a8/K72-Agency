@@ -1,15 +1,14 @@
-import React from 'react'
-import Routing from './routing/Routing'
-import Navbar from './components/Navbar'
-
+import Routing from './routing/Routing';
 
 const App = () => {
+  
   return (
     <div>
+     
       {/* <Navbar/> */}
-      <Routing/>
+      <Routing />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
