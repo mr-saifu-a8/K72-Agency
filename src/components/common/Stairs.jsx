@@ -31,10 +31,11 @@ const Stairs = (props) => {
     tl.to(".stair", {
       y: "0%",
     });
-    // gsap.from(pageRef.current, {
-    //   opacity: 0,
-    //   delay: 1.3,
-    // })
+    gsap.from(pageRef.current, {
+      opacity: 0,
+      delay: 1.3,
+      // scale: 1
+    })
   },[currentPath]);
   return (
     <div>
