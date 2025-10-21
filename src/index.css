@@ -10,5 +10,29 @@
 }
 
 body{
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+}
+
+.movelink{
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+.link:hover .movelink{
+  opacity: 1;
+}
+
+.moveX{
+  animation-name: moveAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes moveAnimation {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
 }

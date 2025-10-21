@@ -72,7 +72,7 @@ const Navbar = () => {
         </div>
 
         {/* Green overlay */}
-        <div className="w-full bg-[#D3FD50] absolute top-0 left-0 h-0 group-hover:h-full transition-all duration-300 ease-in-out z-10"></div>
+        <div className="w-full bg-[#D3FD50] absolute top-0 left-0 h-0 group-hover:h-full transition-all duration-100 ease-in-out z-10"></div>
       </div>
     </div>
   );
